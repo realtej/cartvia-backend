@@ -1,0 +1,18 @@
+package com.cartvia.cartvia_backend.common.enums;
+
+public enum ErrorCode {
+    VALIDATION_ERROR,
+    USERNAME_TAKEN,
+    EMAIL_TAKEN,
+    PHONE_TAKEN,
+    INVALID_CREDENTIALS,
+    INVALID_TOKEN,
+    TOKEN_EXPIRED,
+    PRODUCT_NOT_FOUND,
+    USER_NOT_FOUND,
+    TROLLEY_NOT_FOUND,
+    SESSION_NOT_FOUND,
+    NOT_FOUND,
+    FORBIDDEN,
+    INTERNAL_ERROR
+}

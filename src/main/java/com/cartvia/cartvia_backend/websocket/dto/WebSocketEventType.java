@@ -1,0 +1,15 @@
+package com.cartvia.cartvia_backend.websocket.dto;
+
+public enum WebSocketEventType {
+    TROLLEY_CONNECTED,
+    TROLLEY_DISCONNECTED,
+    PRODUCT_SCANNED,
+    PRODUCT_ADDED,
+    PRODUCT_REMOVED,
+    CART_UPDATED,
+    WEIGHT_UPDATED,
+    WEIGHT_VALIDATION_RESULT,
+    CHECKOUT_STARTED,
+    PAYMENT_COMPLETED,
+    SESSION_UPDATED
+}

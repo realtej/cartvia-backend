@@ -1,0 +1,2 @@
+-- CartVia schema baseline placeholder.
+-- Full entity migrations are added in Task 3 (Database Layer).
